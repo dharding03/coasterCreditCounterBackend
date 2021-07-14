@@ -1,15 +1,15 @@
-package com.danharding.finalproject.Controllers;
+package com.danharding.creditcounter.Controllers;
 
+import com.danharding.creditcounter.Constants.Status;
+import com.danharding.creditcounter.Models.User;
+import com.danharding.creditcounter.Services.MySQLUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
-import com.danharding.finalproject.Constants.Status;
-import com.danharding.finalproject.Models.User;
-import com.danharding.finalproject.Repositories.UserRepository;
-import com.danharding.finalproject.Services.MySQLUserDetailsService;
+import com.danharding.creditcounter.Repositories.UserRepository;
 
 import java.util.List;
 import java.util.Optional;
@@ -23,7 +23,7 @@ public class UserController{
 	UserRepository userRepository;
 
 	@Autowired
-	MySQLUserDetailsService mySQLUserDetailsService;
+    MySQLUserDetailsService mySQLUserDetailsService;
 
 	@Autowired
 	PasswordEncoder passwordEncoder;

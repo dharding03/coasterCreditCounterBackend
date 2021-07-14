@@ -1,11 +1,7 @@
-package com.danharding.finalproject.Authentication;
+package com.danharding.creditcounter.Authentication;
 import java.util.Arrays;
 
-import javax.crypto.Cipher;
-import javax.crypto.KeyGenerator;
-import javax.crypto.SecretKey;
-
-import com.danharding.finalproject.Services.MySQLUserDetailsService;
+import com.danharding.creditcounter.Services.MySQLUserDetailsService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

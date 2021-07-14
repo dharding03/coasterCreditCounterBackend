@@ -1,10 +1,10 @@
-package com.danharding.finalproject.Services;
+package com.danharding.creditcounter.Services;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.danharding.finalproject.Models.User;
-import com.danharding.finalproject.Repositories.UserRepository;
+import com.danharding.creditcounter.Models.User;
+import com.danharding.creditcounter.Repositories.UserRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

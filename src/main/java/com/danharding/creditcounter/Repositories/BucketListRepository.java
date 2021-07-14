@@ -1,6 +1,6 @@
-package com.danharding.finalproject.Repositories;
+package com.danharding.creditcounter.Repositories;
 
-import com.danharding.finalproject.Models.BucketListCoaster;
+import com.danharding.creditcounter.Models.BucketListCoaster;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
